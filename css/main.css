@@ -1,0 +1,14 @@
+.jumbotron {
+  background-color: greenyellow;
+}
+
+.btn {
+  background-color: red;
+  color: greenyellow;
+}
+
+footer {
+  padding: 10px, 10px, 0, 10px;
+  background-color: greenyellow;
+  margin: 4px, 20px, 4px, 20px;
+}

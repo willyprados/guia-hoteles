@@ -1,5 +1,4 @@
 # cosas a ignorar para no subir al repo
 package-lock.json
-package.json
 node_modules/
 

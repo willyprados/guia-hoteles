@@ -1,15 +1,17 @@
 .jumbotron {
-  background-color: greenyellow;
+  background-color: yellow;
+  color: black;
+  margin-top: 50px;
 }
 
 .btn {
-  background-color: red;
-  color: greenyellow;
+  background-color: black;
+  color: white;
 }
 
 footer {
   padding: 10px, 10px, 0, 10px;
-  background-color: greenyellow;
+  background-color: yellow;
   margin: 4px, 20px, 4px, 20px;
 }
 

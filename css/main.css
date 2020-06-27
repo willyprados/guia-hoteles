@@ -12,7 +12,8 @@
 footer {
   padding: 10px, 10px, 0, 10px;
   background-color: yellow;
-  margin: 4px, 20px, 4px, 20px;
+  margin-bottom: 0px;
+  margin-top: 10px;
 }
 
 .card-hotel {
@@ -30,4 +31,8 @@ footer {
 
 .btn-reserva {
   width: 100%;
+}
+
+.footer-address-icon {
+  padding-right: 10px;
 }

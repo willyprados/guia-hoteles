@@ -7,56 +7,156 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    
+
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
     <!-- CSS -->
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="/node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css"
+    />
 
     <title>Guía Hoteles</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
       <a href="#" class="navbar-brand">Hoteles</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria- aria-expanded="false" area-label="Toggle navigation">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarNavDropdown"
+        aria-
+        aria-expanded="false"
+        area-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="/about.html">Nosotros</a></li>
-          <li class="nav-item"><a class="nav-link" href="/prices.html">Precios</a></li>
-          <li class="nav-item"><a class="nav-link" href="/termsAndConditions.html">Términos y condiciones</a></li>
-          <li class="nav-item active"><a class="nav-link" href="contact.html">Contacto</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/prices.html">Precios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/termsAndConditions.html"
+              >Términos y condiciones</a
+            >
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">Contacto</a>
+          </li>
         </ul>
       </div>
     </nav>
-    <div class="jumbotron  justify-content-center">
+
+    <div class="jumbotron justify-content-center">
       <h1>Guía Hoteles</h1>
     </div>
+
     <div class="container">
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item" aria-current="page" ><a href="index.html">Home</a></li>
-          <li class="breadcrumb-item active" aria-current="page" >Contacto</li>
+          <li class="breadcrumb-item" aria-current="page">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">Contacto</li>
         </ol>
       </nav>
-      <div class="row  justify-content-center">
-        <div class="col-sm">
-          <p>
-            <h3>¿Cómo funciona?</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est eos inventore ex deserunt in animi ipsam at distinctio quidem quae qui quo natus fugit laudantium nobis, ad temporibus? Earum, quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat placeat nobis error exercitationem aperiam veritatis earum, ex culpa magnam maiores ab! Reprehenderit similique sapiente dolorum deserunt iusto voluptas voluptatem nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, sint expedita! Eveniet veritatis animi architecto qui distinctio officiis, totam vel ex consectetur id consequatur itaque nesciunt quia dignissimos suscipit nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quia, fugiat illum iste totam deserunt quasi necessitatibus voluptatibus temporibus, earum sed atque labore repellendus rerum quae ut recusandae quos! Sed!</p>
-          </p>
-        </div>        
-      </div>
     </div>
+
+    <div class="container">
+      <h3>Deja tu comentario</h3>
+
+      <form action="" class="col-sm-9 justify-content-center">
+        <div class="form-row">
+          <div class="form-group col-sm-6">
+            <label for="name">Nombre</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="Ingrese su nombre"
+            />
+          </div>
+
+          <div class="form-group col-sm-6">
+            <label for="lastname">Apellido</label>
+            <input
+              type="text"
+              class="form-control"
+              id="lastname"
+              placeholder="Ingrese su apellido"
+            />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="text"
+            class="form-control"
+            id="email"
+            placeholder="Ingrese su Email"
+          />
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-sm-9">
+            <label for="direction">Dirección</label>
+            <input
+              type="text"
+              class="form-control"
+              id="direction"
+              placeholder="Ingrese su Dirección"
+            />
+          </div>
+          <div class="form-group col-sm-3">
+            <label for="city">Ciudad</label>
+            <select class="form-control" id="city">
+              <option selected>Medellin</option>
+              <option>Bogotá</option>
+              <option>Cali</option>
+              <option>Barranquilla</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message">Mensaje</label>
+          <textarea
+            rows="5"
+            class="form-control"
+            id="message"
+            placeholder="Ingrese su mensaje"
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="contactme" />
+            <label class="form-check-label" for="contactme"
+              >Quiero que me contacten</label
+            >
+          </div>
+        </div>
+
+        <button class="btn btn-primary btn-reserva" type="submit">
+          Enviar
+        </button>
+      </form>
+    </div>
+
     <footer>
       <div class="row">
-
         <div class="col-sm-4 d-flex flex-column">
           <a href="https://facebook.com/willyprados">Facebook</a>
           <a href="https://instagram.com/willyprados">Instagram</a>
@@ -67,9 +167,18 @@
         <div class="col-sm-4">
           <address>
             <h3>Oficina Central</h3>
-            <p><span class="oi oi-home footer-address-icon"></span>Medellín, Colombia.</p>
-            <p><span class="oi oi-phone footer-address-icon"></span>+57-305-429-7075</p>
-            <p><span class="oi oi-envelope-closed footer-address-icon"></span>pradopublicity@gmail.com</p>
+            <p>
+              <span class="oi oi-home footer-address-icon"></span>Medellín,
+              Colombia.
+            </p>
+            <p>
+              <span class="oi oi-phone footer-address-icon"></span
+              >+57-305-429-7075
+            </p>
+            <p>
+              <span class="oi oi-envelope-closed footer-address-icon"></span
+              >pradopublicity@gmail.com
+            </p>
           </address>
         </div>
 
@@ -79,7 +188,6 @@
           <a href="/termsAndConditions.html">Términos y condiciones</a>
           <a href="/contact.html">Contacto</a>
         </div>
-
       </div>
     </footer>
 

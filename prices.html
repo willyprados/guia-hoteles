@@ -72,76 +72,142 @@
         </ol>
       </nav>
 
-      <div class="table-responsive">
-        <table class="table table-striped">
-          <thead class="thead-dark">
-            <th>Calidad</th>
-            <th>Ciudad one</th>
-            <th>Ciudad two</th>
-            <th>Ciudad three</th>
-            <th>Ciudad four</th>
-          </thead>
-          <tbody>
-            <tr>
-              <td><span class="oi oi-star"></span></td>
-              <td>$80USD</td>
-              <td>$80USD</td>
-              <td>$80USD</td>
-              <td>$80USD</td>
-            </tr>
-            <tr>
-              <td>
-                <span class="oi oi-star"></span><span class="oi oi-star"></span>
-              </td>
-              <td>$100USD</td>
-              <td>$100USD</td>
-              <td>$100USD</td>
-              <td>$100USD</td>
-            </tr>
-            <tr>
-              <td>
-                <span class="oi oi-star"></span><span class="oi oi-star"></span
-                ><span class="oi oi-star"></span>
-              </td>
-              <td>$110USD</td>
-              <td>$110USD</td>
-              <td>$110USD</td>
-              <td>$110USD</td>
-            </tr>
-            <tr>
-              <td>
-                <span class="oi oi-star"></span><span class="oi oi-star"></span
-                ><span class="oi oi-star"></span
-                ><span class="oi oi-star"></span>
-              </td>
-              <td>$150USD</td>
-              <td>$150USD</td>
-              <td>$150USD</td>
-              <td>$150USD</td>
-            </tr>
-            <tr>
-              <td>
-                <span class="oi oi-star"></span><span class="oi oi-star"></span
-                ><span class="oi oi-star"></span><span class="oi oi-star"></span
-                ><span class="oi oi-star"></span>
-              </td>
-              <td>$230USD</td>
-              <td>$230USD</td>
-              <td>$230USD</td>
-              <td>$230USD</td>
-            </tr>
-          </tbody>
-        </table>
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <a class="nav-link active" id="tarifa-tab" data-toggle="tab" href="#tarifa" role="tab" aria-controls="tarifa" aria-selected="true">Tarifas</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="tarjeta-tab" data-toggle="tab" href="#tarjetas" role="tab" aria-controls="tarjetas" aria-selected="false">Tarjetas</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="comentarios-tab" data-toggle="tab" href="#comentarios" role="tab" aria-controls="comentarios" aria-selected="false">Comentarios</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="tarifa" role="tabpanel" aria-labelledby="tarifa-tab">
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead class="thead-dark">
+                <th>Calidad</th>
+                <th>Ciudad one</th>
+                <th>Ciudad two</th>
+                <th>Ciudad three</th>
+                <th>Ciudad four</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><span class="oi oi-star"></span></td>
+                  <td>$80USD</td>
+                  <td>$80USD</td>
+                  <td>$80USD</td>
+                  <td>$80USD</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="oi oi-star"></span><span class="oi oi-star"></span>
+                  </td>
+                  <td>$100USD</td>
+                  <td>$100USD</td>
+                  <td>$100USD</td>
+                  <td>$100USD</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="oi oi-star"></span><span class="oi oi-star"></span
+                    ><span class="oi oi-star"></span>
+                  </td>
+                  <td>$110USD</td>
+                  <td>$110USD</td>
+                  <td>$110USD</td>
+                  <td>$110USD</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="oi oi-star"></span><span class="oi oi-star"></span
+                    ><span class="oi oi-star"></span
+                    ><span class="oi oi-star"></span>
+                  </td>
+                  <td>$150USD</td>
+                  <td>$150USD</td>
+                  <td>$150USD</td>
+                  <td>$150USD</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="oi oi-star"></span><span class="oi oi-star"></span
+                    ><span class="oi oi-star"></span><span class="oi oi-star"></span
+                    ><span class="oi oi-star"></span>
+                  </td>
+                  <td>$230USD</td>
+                  <td>$230USD</td>
+                  <td>$230USD</td>
+                  <td>$230USD</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="tarjetas" role="tabpanel" aria-labelledby="tarjeta-tab">
+          <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <a class="btn btn-collap text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Tarjeta Básica
+                  </a>
+                </h2>
+              </div>
+          
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam totam quia atque voluptate harum a, voluptatum recusandae, cumque hic at expedita ex. Ea neque eum, distinctio commodi aliquam nam quaerat?
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <a class="btn btn-collap text-left collapsed " type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Tajeta VIP
+                  </a>
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates recusandae unde aperiam enim sit fugit dolor voluptatum? Hic similique blanditiis laudantium, quibusdam totam mollitia, explicabo voluptate, expedita inventore illo soluta.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <a class="btn btn-collap text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Tarjeta Black
+                  </a>
+                </h2>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus facere veritatis eaque culpa explicabo ratione consectetur itaque nostrum saepe recusandae, placeat eligendi nemo iste voluptatem tempora! Aliquam laudantium ea repudiandae!
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="comentarios" role="tabpanel" aria-labelledby="comentarios-tab">...</div>
       </div>
+
+
+      
     </div>
 
     <footer>
       <div class="row">
         <div class="col-sm-4 d-flex flex-column">
-          <a href="https://facebook.com/willyprados">Facebook</a>
-          <a href="https://instagram.com/willyprados">Instagram</a>
-          <a href="https://twitter.com/willyprados">Twitter</a>
-          <a href="https://linkedin.com/in/willyprados">LinkedIn</a>
+          <a href="https://facebook.com/willyprados" target="_blank">Facebook</a>
+          <a href="https://instagram.com/willyprados" target="_blank">Instagram</a>
+          <a href="https://twitter.com/willyprados" target="_blank">Twitter</a>
+          <a href="https://linkedin.com/in/willyprados" target="_blank">LinkedIn</a>
         </div>
 
         <div class="col-sm-4">

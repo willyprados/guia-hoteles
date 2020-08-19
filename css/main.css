@@ -43,3 +43,16 @@ footer {
 .footer-address-icon {
   padding-right: 10px;
 }
+
+a.btn-collap {
+  color: #000;
+  text-decoration: none!important; 
+}
+a.btn-collap:hover {
+  color: #0056b3;
+  text-decoration: none; 
+}
+a.btn-collap:active {
+  color: #0056b3;
+  text-decoration: none; 
+}
